@@ -18,3 +18,4 @@
 My goals in my life are not that too much cs im just want to live a simple life
 
 ```
+![WEB](bg.jpg)
