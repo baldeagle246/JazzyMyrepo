@@ -1,0 +1,36 @@
+
+    body {
+      background-image: url('bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;  /* stack heading + form vertically */
+      justify-content: center; /* center vertically */
+      align-items: center;     /* center horizontally */
+      min-height: 100vh;       /* full viewport height */
+      margin: 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;  /* stack inputs vertically */
+      gap: 10px;               /* spacing between inputs */
+      align-items: center;     /* center inputs */
+    }
+
+    input {
+      background-color: grey;
+      color: black;
+      border-radius: 20px;
+      border-style: inset;
+      border-color: black;
+      text-align: center;      /* center placeholder + text */
+      font-size: 18px;
+      width: 300px;
+      padding: 15px;
+    }
+
+    h1, p {
+      color: azure;
+      text-align: center;
+    }
