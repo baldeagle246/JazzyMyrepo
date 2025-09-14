@@ -1,21 +1,21 @@
 
     body {
-      background-image: url('bg.jpg');
+      background-image: url('bgg.png');
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
-      flex-direction: column;  /* stack heading + form vertically */
-      justify-content: center; /* center vertically */
-      align-items: center;     /* center horizontally */
-      min-height: 100vh;       /* full viewport height */
+      flex-direction: column;  
+      justify-content: center;
+      align-items: center;     
+      min-height: 100vh;       
       margin: 0;
     }
 
     form {
       display: flex;
-      flex-direction: column;  /* stack inputs vertically */
-      gap: 10px;               /* spacing between inputs */
-      align-items: center;     /* center inputs */
+      flex-direction: column; 
+      gap: 10px;               
+      align-items: center;     
     }
 
     input {
@@ -24,7 +24,7 @@
       border-radius: 20px;
       border-style: inset;
       border-color: black;
-      text-align: center;      /* center placeholder + text */
+      text-align: center;      
       font-size: 18px;
       width: 300px;
       padding: 15px;
